@@ -1,5 +1,8 @@
+import java.math.BigDecimal;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello, World!");
+        ContaBancaria conta = new ContaBancaria(new BigDecimal("600.00"));
+        conta.menu();
     }
 }
