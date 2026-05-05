@@ -21,8 +21,9 @@
 - Resultado:
   - Utilizei BigDecimal para evitar problemas de precisão com valores monetários, usuário pode digitar
   padrão BR 50,00 ou 50.000,00
-  - Acrescentei regras de atualização do cheque especial automaticamente na cobrança da taxa (caso esteja
-  utilizando o cheque especial)
+  - A cobrança da taxa de utilização do cheque especial só será realizada na conta corrente caso o usuário
+  tenha saldo suficiente para cobrança integral, caso não tenha ela é acumulativa e será cobrada assim que o
+  usuário depositar valor suficiente para o pagamento da taxa na conta
   - Tornei todos os métodos privados, o usuário só pode acessar o método 'menu' da classe ContaBancaria
   - Atualizo o novo saldo do cheque especial em caso de depósito na conta, caso o usuário esteja utilizando o 
   cheque especial e verifico se tem cobrança de taxa pendente e já debita com o novo saldo em conta
