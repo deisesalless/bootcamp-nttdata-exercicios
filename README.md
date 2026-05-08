@@ -57,3 +57,27 @@
     - O carro só pode virar para esquerda/direita se sua velocidade for de no mínimi 1km e no máximo 40km;
 
 - Resultado:
+
+-----
+
+3. Escreva um código onde temos o controle de banho de um petshop, a maquina de banhos dos pets deve ter as seguintes 
+operações:
+   1. Dar banho no pet;
+   2. Abastecer com água;
+   3. Abastecer com shampoo;
+   4. Verificar nivel de água;
+   5. Verificar nivel de shampoo;
+   6. Verificar se tem pet no banho;
+   7. Colocar pet na maquina;
+   8. Retirar pet da máquina;
+   9. Limpar maquina.
+
+- Regras para implementar:
+    - A maquina de banho deve permitir somente 1 pet por vez;
+    - Cada banho realizado irá consumir 10 litros de água e 2 litros de shampoo;
+    - A máquina tem capacidade máxima de 30 litros de água e 10 litros de shampoo;
+    - Se o pet for retirado da maquina sem estar limpo será necessário limpar a máquina para permitir a entrada de outro pet;
+    - A limpeza da máquina ira consumir 3 litros de água e 1 litro de shampoo;
+    - O abastecimento de água e shampoo deve permitir 2 litros por vez que for acionado;
+
+- Resultado:
