@@ -81,3 +81,11 @@ operações:
     - O abastecimento de água e shampoo deve permitir 2 litros por vez que for acionado;
 
 - Resultado:
+  - Criado variavel global em MaquinaBanhoPet do tipo boolean isLivre para controlar se a máquina está livre ou ocupada;
+  - Ao chamar o método 'darBanho' é verificado se a máquina está livre e se possui água e shampoo suficiente para realizar 
+  o banho, cso contrario é solicitado o abastecimento
+  - Ao retirar o pet da máquina automaticamente é feita a limpeza, já que o pet está usando a máquina então se 
+  pressupõe que é necessário a limpeza após o uso
+  - Para abastecer a água é verificado se o nível é menor ou igual a 28 já que o máximo é 30 e o abastecimento é de 2 em 2 litros
+  - Para abastecer o shampoo é verificado se o nível é menor ou igual a 8 já que o máximo é 10 e o abastecimento é de 2 em 2 litros
+  - Foi criado a variavel global pet que é do tipo Pet, porém é inicializada somente ao iniciar banho em algum pet
